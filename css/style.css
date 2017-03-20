@@ -100,6 +100,7 @@ header a:hover{
     font-size: 30px;
 }
 #about{
+    font-family: "Century Gothic", sans-serif;
     font-size: 20px;
     margin-left: 1%;
     padding-top: 200px;
@@ -122,7 +123,10 @@ header a:hover{
     background-image: linear-gradient(to right, #231f20, #eaeaea 50%, #231f20 100%);
 }
 .topic{
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 45px;
 }
 .topic h2{
@@ -132,7 +136,7 @@ header a:hover{
     width: 70%;
 }
 .topic h5{
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 15px;
 }
 #news{
@@ -205,6 +209,7 @@ header a:hover{
     transition: all 0.9s; 
 }
 #info{
+    font-size: 16px;
     float: right;
     text-align: center;
     width: 57%;
