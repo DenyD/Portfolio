@@ -114,6 +114,7 @@ header a:hover{
      
 }
 #about p{
+    max-width: 850px;
     margin: 5px;
     text-align: left;
 }

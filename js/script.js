@@ -16,7 +16,7 @@ $(function() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 900) {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
         document.getElementById("backBtn").style.display = "block";
     } else {
         document.getElementById("backBtn").style.display = "none";
