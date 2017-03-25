@@ -9,10 +9,116 @@
 		float: left;
 		width: 35%;
 	}
+
+	
 }
 
 
 @media screen and (min-width: 660px) {
+
+/****************************************
+            	BOXES
+****************************************/
+
+#boxes .box, .box2 {     
+     padding-top: 40px;
+     padding-bottom: 40px;
+     float: left;
+     text-align: center;
+     width: 25%;
+     height: 150px;
+}
+
+#boxes .box i {
+    font-size: 90px;
+    color: #e67300;
+    position: relative;
+    transition: all 0.6s; 
+}
+
+#boxes .box i:hover {
+    font-size: 130px;
+    color: #ff0000;
+}
+
+#boxes .box2 i {
+    font-size: 90px;
+    color: #ff0000;
+    position: relative;
+    transition: all 0.6s; 
+}
+
+    #boxes .box2 i:hover {
+    font-size: 130px;
+    color: #e67300;
+}
+
+/****************************************
+            	PROJECTS
+****************************************/
+
+#projects {
+    margin-top: 30px;
+}
+
+#proj {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+#proj img {
+    float: left;
+    border: #ff3333 4px solid;    
+    box-shadow: 15px 15px 25px #4d4d4d;
+    width: 37%;
+    margin-bottom: 60px;
+}
+
+#proj img:hover{
+    width: 40%;
+    transition: all 0.9s; 
+}
+
+
+/****************************************
+            PROJECT-INFO
+****************************************/
+
+.topic h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#info {
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    width: 57%;
+    padding: 0;
+    margin-top: 3%;
+}
+
+#info .link {
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    width: 12%;
+}
+
+#info .link i, img {
+    margin-top: 20px;
+    position: relative;
+    width: 40px;
+}
+
+#info .link i {
+    font-size: 40px;
+}
+
+
 
 /****************************************
             	CONTACT
