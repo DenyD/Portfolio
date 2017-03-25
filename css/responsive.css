@@ -1,0 +1,65 @@
+@media screen and (min-width: 480px) {
+	
+/****************************************
+            	CONTACT
+****************************************/
+
+	#contactlink {
+		text-align: left;  
+		float: left;
+		width: 35%;
+	}
+}
+
+
+@media screen and (min-width: 660px) {
+
+/****************************************
+            	CONTACT
+****************************************/
+	#foto {    
+		float: left;
+		width: 15%;
+	}
+
+	#contact .container1 {  
+		width: 80%;
+	}
+
+	aside#data {
+		text-align: left;
+		float: left;
+		width: 31%;
+	}
+		
+/****************************************
+            	BackBTN
+****************************************/
+
+	#backBtn {
+		display: none;
+		position: fixed;
+		bottom: 80px;
+		right: 40px;
+		z-index: 99; 
+		border: none; 
+		outline: none; 
+		cursor: pointer; 
+	}
+
+	#backBtn img {
+		width:45px;
+	}
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+/****************************************
+            	CONTACT
+****************************************/
+	#contact .container1 {  
+		width: 50%;
+	}
+}
