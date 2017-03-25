@@ -1,20 +1,59 @@
-body{   
+/****************************************
+            	GENERAL
+****************************************/
+
+body {   
     font: 15px/1.5 Arial, sans-serif;
     padding: 0;
     margin: 0;
     background-color: #e6e6e6;
 }
-.container{
+
+.container {
     width: 85%;
     margin: auto;
     overflow: hidden;
 }
-.container1{
+
+.container1 {
     width: 90%;
     margin: auto;
     overflow: hidden;
 }
-.button1{
+
+.underline {
+    width: 400px;
+    height: 2px;  
+    background-image: linear-gradient(to right, #231f20, #eaeaea 50%, #231f20 100%);
+}
+
+.topic {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.topic h2 {
+    margin: auto;
+    font-size: 35px;
+    border-bottom: #343338 3px solid;
+    width: 70%;
+}
+
+.topic h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+
+/****************************************
+            	BUTTONS
+****************************************/
+
+.button1 {
     height: 38px;
     background: #ff3333;
     border: 0;
@@ -24,7 +63,8 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
-.button2{
+
+.button2 {
     height: 32px;
     background: #ff3333;
     border: 0;
@@ -32,74 +72,112 @@ body{
     font-weight: bold;
     padding: 1px 45px 5px 45px;
 }
-header{
+
+#backBtn {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 2px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+}
+
+#backBtn img {
+    width:25px;
+}
+
+
+/****************************************
+            	HEADER
+****************************************/
+
+header {
     background: #343338;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: darkorange 3px solid;
 }
-#backBtn {
-    display: none;
-    position: fixed;
-    bottom: 80px;
-    right: 40px;
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    cursor: pointer; 
-}
-header a{
+
+header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
 }
-header ul{
+
+header ul {
     margin: 0;
     padding: 0;    
 }
-header li{
-    display: inline;
+
+header li {
+    display: inline-block;
     padding: 0 20px 0 20px;
 }
-header #nazwa{
+
+header #nazwa {
     float: left;
 }
-header #nazwa h1{
-    margin:0
+
+header #nazwa h1 {
+    margin: 0;
+    padding: 0 20px 0 20px;
 }
-header nav{
+
+header nav {
     float: right;
     margin-top: 10px;
+    padding: 0 20px 0 20px;
 }
-header .highlight, header .current a{
+
+header .highlight, header .current a {
     color: #ff3333;
     font-weight: bold;
 }
-header a:hover{
+
+header a:hover {
     cursor: pointer;
     color: #cccccc;
     font-weight: bold;
 }
-#showcase{
+
+
+
+/****************************************
+            	SHOWCASE
+****************************************/
+
+#showcase {
     min-height: 850px;
-    background: url('../img/showcase.jpg') no-repeat 0 -300px;
+    background: url('../img/showcase.jpg') no-repeat 0 -250px;
     text-align: right;
     color: #ffffff;
     opacity: 0.8;
 }
-#showcase h1{
-    margin-top: -50px;
-    font-size: 60px;
+
+#showcase h1 { 
+    margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 4em;
+    line-height: 70px;
 }
-#showcase p{
+
+#showcase p {
     margin-top: 50px;
     text-align: right;
     font-size: 30px;
 }
-#about{
+
+
+
+/****************************************
+            	ABOUT
+****************************************/
+
+#about {
     font-family: "Century Gothic", sans-serif;
     font-size: 20px;
     margin-left: 1%;
@@ -107,60 +185,59 @@ header a:hover{
     text-align: left;
     width: 90%;
 }
-#about h2{
+
+#about h2 {
     margin-left: 100px;
     margin-right: auto;
     margin-bottom: -4px;
      
 }
-#about p{
+
+#about p {
+    max-width: 850px;
     margin: 5px;
     text-align: left;
 }
-.underline{
-    width:400px;
-    height: 2px;  
-    background-image: linear-gradient(to right, #231f20, #eaeaea 50%, #231f20 100%);
-}
-.topic{
-    font-family: "Century Gothic", sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 45px;
-}
-.topic h2{
-    margin:auto;
-    font-size: 35px;
-    border-bottom: #343338 3px solid;
-    width: 70%;
-}
-.topic h5{
-    font-size: 25px;
-    margin-top: 15px;
-}
-#news{
-    padding: 16px;
+
+
+
+/****************************************
+            	NEWS
+****************************************/
+
+#news {
+    padding: 16px 36px 16px 36px;
     color:#ffffff;
     background: #343338;
 }
-#news h1{
+
+#news h1 {
      float: left;
 }
-#news form{
+
+#news form {
      float: right;
      margin-top: 15px;
 }
-#news input[type="email"]{
+
+#news input[type="email"] {
      padding: 4px;
      height: 25px;
      width: 180px;
 }
-#boxes{
+
+
+
+/****************************************
+                BOXES
+****************************************/
+
+#boxes {
      margin-top: 50px;
      padding-bottom: 40px;
 }
-#boxes .box, .box2{     
+
+#boxes .box, .box2 {     
      padding-top: 40px;
      padding-bottom: 40px;
      float: left;
@@ -168,47 +245,68 @@ header a:hover{
      width: 25%;
      height: 150px;
 }
+
 #boxes .box i {
     font-size: 80px;
     color: #e67300;
     position: relative;
     transition: all 0.6s; 
 }
+
 #boxes .box i:hover {
     font-size: 90px;
     color: #ff0000;
 }
+
 #boxes .box2 i {
     font-size: 80px;
     color: #ff0000;
     position: relative;
     transition: all 0.6s; 
 }
+
     #boxes .box2 i:hover {
     font-size: 90px;
     color: #e67300;
 }
-#projects{
+
+
+
+/****************************************
+            	PROJECTS
+****************************************/
+
+#projects {
     margin-top: 30px;
 }
-#proj{
+
+#proj {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     padding: 0;
 }
-#proj img{
+
+#proj img {
     float: left;
     border: #ff3333 4px solid;    
     box-shadow: 15px 15px 25px #4d4d4d;
     width: 37%;
     margin-bottom: 60px;
 }
+
 #proj img:hover{
     width: 40%;
     transition: all 0.9s; 
 }
-#info{
+
+
+
+/****************************************
+            PROJECT-INFO
+****************************************/
+
+#info {
     font-size: 16px;
     float: right;
     text-align: center;
@@ -216,22 +314,32 @@ header a:hover{
     padding: 0;
     margin-top: 3%;
 }
-#info .link{
+
+#info .link {
     font-size: 10px;
     display: inline-block;
     text-align: center;
     margin: 15px;
     width: 12%;
 }
-#info .link i, img{
+
+#info .link i, img {
     margin-top: 20px;
     position: relative;
     width: 40px;
 }
-#info .link i{
+
+#info .link i {
     font-size: 40px;
 }
-#contact{
+
+
+
+/****************************************
+            	CONTACT
+****************************************/
+
+#contact {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -240,41 +348,58 @@ header a:hover{
     color: #ffffff;
     background-color: #4d4d4d;
 }
-#contact h2{
+
+#contact h2 {
     margin-bottom: 90px;
 }
-#foto{    
-    text-align: right;  
-    float: left;
-    width: 24%;
+
+#contact .container1 {  
+    width: 90%;
 }
-#foto img{  
+
+#foto {    
+    float: left;
+    width: 30%;
+}
+
+#foto img {  
     width: 160px;
 }
-#contactlink{
-    margin-left: 100px;
+
+#contactlink {
+	margin-left: 110px;
     text-align: left;  
     float: left;
     width: 35%;
 }
-#contactlink h5{
+
+#contactlink h5 {
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 16px;
     text-align: left;    
 }
-.cont-icon{
+
+.cont-icon {
     margin-left: 5px;
     width: 23px;
     border: #ffffff 1px solid;
     border-radius: 5px;
 }
-aside#data{
+
+aside#data {
     text-align: left;
     float: left;
     width: 31%;
 }
-footer{
+
+
+
+/****************************************
+            	FOOTER
+****************************************/
+
+footer {
     text-align: center;
     padding: 15px;
     margin-top: 50px;

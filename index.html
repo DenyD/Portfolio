@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Front End Web">
     <meta name="author" content="Daniel Siwczak">
     <link rel="shortcut icon" href="./img/showcase.jpg">
     <link href='//fonts.googleapis.com/css?family=Century Gothic' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <title>Daniel Siwczak | Welcome</title>
+    
 </head>
 <body>
     <header>
@@ -35,8 +37,7 @@
             <h2>About me:</h2>
             <div class="underline"></div>
             <p><em>"Hello, my name is Daniel, live in Warsaw.</p>
-            <p>Currently I'm working as Engineer but in the near future</p>
-            <p>I want to start my IT career as Junior Front Developer ASAP."</em></p>
+            <p>Currently I'm working as Engineer but in the near future I want to start my IT career as Junior Front Developer ASAP."</em></p>
         </div>
     </section>
     <section id="boxes">
@@ -327,27 +328,27 @@
                 <h3>Contact me.</h3>
                 <form class="quote">
                     <div>
-                        <label>Name</label><br>
-                        <input type="text" placeholder="Name...">
+                        <label for="imie">Name</label><br>
+                        <input type="text" placeholder="Name..." id="imie">
                     </div>
                     <div>
-                        <label>Lastname</label><br>
-                        <input type="text" placeholder="Lastname...">
+                        <label for="nazwisko">Lastname</label><br>
+                        <input type="text" placeholder="Lastname..." id="nazwisko">
                     </div>
                     <div>
-                        <label>Email</label><br>
-                        <input type="email" placeholder="Email...">
+                        <label for="mail">Email</label><br>
+                        <input type="email" placeholder="Email..." id="mail">
                     </div>
                     <div>
-                        <label>Message</label><br>
-                        <textarea placeholder="Message..."></textarea>
+                        <label for="msg">Message</label><br>
+                        <textarea placeholder="Message..." id="msg"></textarea>
                     </div>
                     <button class="button2" type="submit">Send email</button>
                 </form>
             </aside>
         </div>
     </section>
-        <a id="backBtn" href=""><img src="./img/back1.png"></a>
+    <a id="backBtn" href=""><img src="./img/back1.png"></a>
     <footer>
         <p>Daniel Siwczak, Copyright &copy; 2017</p>
     </footer>
